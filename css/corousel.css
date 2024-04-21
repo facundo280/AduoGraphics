@@ -1,0 +1,22 @@
+.slider{
+     overflow: hidden;
+}
+
+
+.slider--inner{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    transition: all 0.3 ease-in;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+}
+
+.slider--inner img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 300px;
+    
+}
